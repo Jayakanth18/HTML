@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    background-image: url(img/pexels-markus-spiske-4383298.jpg);
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+}
+.alltable{
+background-color:yellow;
+margin: auto auto;
+}
+table th {
+    border: 3px solid;
+}
+td{
+    border: 3px solid;
+}
+/* .btn1{
+    margin: auto ;
+    margin-right: 30%;
+} */
+#b1{
+    position: fixed;
+    top: 415px;
+    left: -1160px;
+}
+#b2{
+    position: relative;
+    top: 580px;
+    left: -1200px;
+}
+#b3{
+    position: relative;
+    top: 745px;
+    left: -1245px;
+}
+

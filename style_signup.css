@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url(img/leaves_plant_green_118405_2560x1080.jpg);
+}
+.container{
+    background-color: greenyellow;
+    margin-left: 43%;
+    margin-top: 6%;
+    width: 260px;
+    height: 500px;
+    padding: 45px;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: -18px;
+}
+#name{
+    height: 29px;
+    width: 250px;
+}
+#email{
+    height: 29px;
+    width: 250px;
+}
+#number{
+    height: 29px;
+    width: 250px;
+}
+#date{
+    height: 29px;
+    width: 250px;
+
+}
+#password{
+    height: 29px;
+    width: 250px;
+}
+#button{
+    height: 42px;
+    width: 200px;
+    transition: .5s;
+    margin-left: 35px;
+}
+#name, #email,#number,#password,#date{
+    border-radius: 20px;
+}
+#button{
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px yellow;
+}
+#button:hover{
+    background-color: yellow;
+    box-shadow: 5px 3px 10px rgb(0, 255, 0);
+    transform: scaleX(80%);
+
+}
